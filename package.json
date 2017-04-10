@@ -1,0 +1,24 @@
+{
+  "name": "widevbot",
+  "version": "1.0.0",
+  "description": "\"# widevbot\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andbet39/widevbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andbet39/widevbot/issues"
+  },
+  "homepage": "https://github.com/andbet39/widevbot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.27.0",
+    "node-wit": "^4.2.0",
+    "splunk-sdk": "^1.8.2"
+  }
+}
