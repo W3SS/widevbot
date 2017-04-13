@@ -3,7 +3,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const mysplunk = require("./splunk.js");
 
 
-const token = '276868419:AAEZAbFUy0dHkrEuC3_mPFtT_15niSf3nCA';
+const token = '262255785:AAHcQ8nS9u4ID4iEk9LJHLutFxG4i6yBgvw';
 const wit_token = 'XN6S7TAFH4VHNIMAX4EGHNYZS3XJWEBQ';
 
 const bot = new TelegramBot(token, {polling: true});

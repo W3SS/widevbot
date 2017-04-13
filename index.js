@@ -33,7 +33,8 @@ const findOrCreateSession = (chatId) => {
         sessionId = new Date().toISOString();
         sessions[sessionId] = {
             chatId: chatId,
-            context: {}
+            context: {},
+            bottype:""
         };
     }
     return sessionId;
